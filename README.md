@@ -1,2 +1,2 @@
 # WebPage-Development
-Simple Basic Preffessional like WebPages
+Simple Basic Professional like WebPages
