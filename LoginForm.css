@@ -1,0 +1,115 @@
+body{
+	background: url('https://media.istockphoto.com/photos/wooden-tabletop-over-defocused-kitchen-background-picture-id1071414426?b=1&k=6&m=1071414426&s=170667a&w=0&h=yuYlBfH8HEREcRa8WqedZNhy3dyJ_vgSYwFOvzMLpDY=');
+	background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+.log{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+}
+.log h1{
+	margin-bottom: 50px;
+	font-size: 33px;
+}
+.bton{
+	background:black;
+	padding: 10px 15px;
+	color:white;
+	border-radius: 5px;
+	box-shadow: black;
+}
+.bton:hover{
+	color:yellow;
+	font-size: 16.3px;
+}
+.loginbox{
+	width: 370px;
+	height: 510px;
+	background: #000;
+	color: #fff;
+	top: 56%;
+	left: 50%;
+	position:absolute;
+	display: none;
+	transform: translate(-50%,-50%);
+	padding: 70px 30px;
+	box-sizing: border-box;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	border-radius : 5px
+}
+.picture{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 29px;
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;	
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.loginbox input[type="submit"]{
+	border: none;	
+	height: 40px;
+	background: #FB2525;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox input[type="close"]{
+	border: none;	
+	height: 40px;
+	background: #FB2525;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.loginbox input[type="close"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.loginbox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgray;
+}
+.loginbox a:hover{
+	color:  #ffc107;
+	font-size: 13px;
+}
