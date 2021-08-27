@@ -1,5 +1,5 @@
-# WebPage-Development
-Simple Basic Preffessional like WebPages
+# WebPage
+Simple Basic WebPages 
 
 
 Here I created a simple login form with database connection for users registering through this form in any one of the local servers link XAMPP,WAMPP etc,.
